@@ -50,7 +50,7 @@ img {
 }
 }
 
-.navigation {
+.header-navigation {
   display: flex;
   align-items: center;
 }
@@ -539,7 +539,7 @@ li .address-contacts-link:focus {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 72px;
+  gap: 72px 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1105,6 +1105,7 @@ list-style: none;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  background-color: rgba(46, 47, 66, 0.4);
 }
 
 .modal {
@@ -1126,7 +1127,6 @@ list-style: none;
 @media screen and (min-width: 768px) {
   .modal {
       width: 408px;
-      background-color: rgba(46, 47, 66, 0.4);
   }
 }
 
