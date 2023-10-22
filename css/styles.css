@@ -1089,7 +1089,7 @@ list-style: none;
 
 /* ======== BACKDROP ========= */
 
-.backdrop.is-open {
+.backdrop {
   position: fixed;
   top: 0;
   width: 100%;
